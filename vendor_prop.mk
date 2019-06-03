@@ -84,7 +84,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.is_type=3 \
     persist.camera.max.previewfps=60 \
     vidc.enc.dcvs.extra-buff-count=2 \
-    persist.camera.hdr.video=2
+    persist.camera.hdr.video=2 \
+    vendor.camera.aux.packagelist=com.dual.GCam,com.Tele.GCam,com.android.camera,com.bsgmod.camerb,org.codeaurora.snapcam \
+    camera.hal1.packagelist=com.whatsapp
 
 # Core control
 PRODUCT_PROPERTY_OVERRIDES += \
